@@ -31,20 +31,18 @@
 </parameterlist>
 <simplesect kind="return"><para>The test results </para>
 </simplesect>
-<simplesect kind="see"><para>QTstyle_Test(), ~QTstyle_Test(), testMeToo() and publicVar() </para>
-</simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Documents/c++_projects_2/doc_demo/selva/include/selva.h" line="14" column="8"/>
+        <location file="/Users/sarathmenon/Documents/c++_projects_2/doc_demo/selva/include/selva.h" line="13" column="8"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/sarathmenon/Documents/c++_projects_2/doc_demo/selva/include/selva.h" line="4" column="1" bodyfile="/Users/sarathmenon/Documents/c++_projects_2/doc_demo/selva/include/selva.h" bodystart="4" bodyend="15"/>
+    <location file="/Users/sarathmenon/Documents/c++_projects_2/doc_demo/selva/include/selva.h" line="4" column="1" bodyfile="/Users/sarathmenon/Documents/c++_projects_2/doc_demo/selva/include/selva.h" bodystart="4" bodyend="14"/>
     <listofallmembers>
       <member refid="class_selva_1a428262e50b25ac8debfebc0f4d34e66d" prot="public" virt="non-virtual"><scope>Selva</scope><name>disp1</name></member>
     </listofallmembers>
