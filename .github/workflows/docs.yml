@@ -27,11 +27,11 @@ jobs:
           && cd build
           && cmake ..
           && make
-          && cd
+          && cd ..
           && cd docs
           && cd _build/html
           && touch .nojekyll
-          && cd
+          && cd ..
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
