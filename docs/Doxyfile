@@ -1,7 +1,0 @@
-PROJECT_NAME           = "Selva"
-
-OUTPUT_DIRECTORY       = /Users/sarathmenon/Documents/c++_projects_2/doc_demo/docs/doc_doxygen/
-
-INPUT                  = /Users/sarathmenon/Documents/c++_projects_2/doc_demo/docs/../selva/include  /Users/sarathmenon/Documents/c++_projects_2/doc_demo/docs/../docs 
-
-GENERATE_XML = YES
