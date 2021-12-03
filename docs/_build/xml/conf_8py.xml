@@ -104,6 +104,6 @@
 <codeline lineno="94"><highlight class="normal">breathe_default_project<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;C++<sp/>Sphinx<sp/>Doxygen<sp/>Breathe&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="95"><highlight class="normal">breathe_default_members<sp/>=<sp/>(</highlight><highlight class="stringliteral">&apos;members&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;undoc-members&apos;</highlight><highlight class="normal">)</highlight></codeline>
     </programlisting>
-    <location file="/Users/sarathmenon/Documents/c++_projects_2/doc_demo/docs/docs_sphinx/conf.py"/>
+    <location file="/Users/sarathmenon/Documents/c++_projects_2/doc_demo/docs/conf.py"/>
   </compounddef>
 </doxygen>
