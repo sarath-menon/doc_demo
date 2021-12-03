@@ -1,6 +1,6 @@
 PROJECT_NAME           = "Selva"
 
-OUTPUT_DIRECTORY       = @CMAKE_CURRENT_BINARY_DIR@/doxygen_output/
+OUTPUT_DIRECTORY       = @CMAKE_CURRENT_SOURCE_DIR@/_build
 
 INPUT                  = @CMAKE_SOURCE_DIR@/selva/include  @CMAKE_SOURCE_DIR@/docs 
 
