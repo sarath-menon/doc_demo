@@ -1,7 +1,0 @@
-PROJECT_NAME           = "Selva"
-
-OUTPUT_DIRECTORY       = @CMAKE_CURRENT_SOURCE_DIR@/doc_doxygen/
-
-INPUT                  = @CMAKE_CURRENT_SOURCE_DIR@/../selva/include  @CMAKE_CURRENT_SOURCE_DIR@/../docs 
-
-GENERATE_XML = YES
