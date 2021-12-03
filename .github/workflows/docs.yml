@@ -31,6 +31,7 @@ jobs:
           && cd docs
           && cd _build/html
           && touch .nojekyll
+          && cd
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
