@@ -3,7 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to doc_demo's documentation!
+#################################
+A DDS based middleware for Robotics
+#################################
+
+Introduction
+====================================
+
+1. A minimalist and intuitive API similar to pytorch and keras
+2. Doesn't confuse the beginner by providing a long list of hyperparameter choices
+
+Contents
 ====================================
 
 .. toctree::
@@ -11,13 +21,21 @@ Welcome to doc_demo's documentation!
    :caption: Contents:
 
 
-
 Indices and tables
 ==================
 
 * :ref:`genindex`
 * :ref:`modindex`
-* :ref:`search`
+  
+.. * :ref:`search`
+
+Contents
+==================
+.. toctree::
+   :maxdepth: 2
+   :caption: Neural Networks
+
+   nn_intro
 
 Docs
 ====
