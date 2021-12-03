@@ -23,8 +23,12 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@1.0.0
       - name: Build docs
-        run: cd docs
-          && make html
+        run: mkdir build
+          && cd build
+          && cmake ..
+          && ninja
+          && cd
+          && cd docs
           && cd _build/html
           && touch .nojekyll
       - name: Deploy
@@ -32,4 +36,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: docs/_build/html # The folder the action should deploy.
+          FOLDER: build/docs # The folder the action should deploy.
