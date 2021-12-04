@@ -1,6 +1,6 @@
 PROJECT_NAME           = "Selva"
 
-OUTPUT_DIRECTORY       = /Users/sarathmenon/Documents/c++_projects_2/doc_demo/docs/_build
+OUTPUT_DIRECTORY       = /Users/sarathmenon/Documents/c++_projects_2/doc_demo/docs/generated_docs
 
 INPUT                  = /Users/sarathmenon/Documents/c++_projects_2/doc_demo/selva/include  /Users/sarathmenon/Documents/c++_projects_2/doc_demo/docs 
 

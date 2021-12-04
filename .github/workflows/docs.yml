@@ -22,19 +22,19 @@ jobs:
           && pip3 install sphinx-sitemap
       - name: Checkout repo
         uses: actions/checkout@1.0.0
-      - name: Build docs
-        run: mkdir build
-          && cd build
-          && cmake ..
-          && make
-          && cd ..
-          && cd docs
-          && cd _build/html
-          && touch .nojekyll
-          && cd ..
+      # - name: Build docs
+      #   run: mkdir build
+      #     && cd build
+      #     && cmake ..
+      #     && make
+      #     && cd ..
+      #     && cd docs
+      #     && cd _build/html
+      #     && touch .nojekyll
+      #     && cd ..
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: build/docs # The folder the action should deploy.
+          FOLDER: docs/generated_docs # The folder the action should deploy.
