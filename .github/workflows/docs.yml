@@ -37,4 +37,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: docs/generated_docs # The folder the action should deploy.
+          FOLDER: docs/generated_docs/html # The folder the action should deploy.
