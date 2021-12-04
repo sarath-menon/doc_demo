@@ -14,18 +14,24 @@ jobs:
     runs-on: macos-latest
 
     steps:
-      - name: Requirements
-        run: brew install doxygen
-          && brew install sphinx-doc
-          && pip3 install sphinx-rtd-theme
-          && pip3 install breathe
-          && pip3 install sphinx-sitemap
+      # - name: Requirements
+      #   run: brew install doxygen
+      #     && brew install sphinx-doc
+      #     && pip3 install sphinx-rtd-theme
+      #     && pip3 install breathe
+      #     && pip3 install sphinx-sitemap
       - name: Checkout repo
         uses: actions/checkout@1.0.0
-      - name: Build docs
-        run: cd _build/html
-          && touch .nojekyll
-          && cd ..
+      # - name: Build docs
+      #   run: mkdir build
+      #     && cd build
+      #     && cmake ..
+      #     && make
+      #     && cd ..
+      #     && cd docs
+      #     && cd _build/html
+      #     && touch .nojekyll
+      #     && cd ..
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
